@@ -41,9 +41,6 @@ menuGroupID:
         ItemFlags:
         - HIDE_ATTRIBUTES
     admin: false
-menuGroupList:
-- world
-- IridiumSkyblock
 worldGroup:
   world:
     overworld: world
@@ -75,16 +72,19 @@ playerLocations:
     IridiumSkyblock:
       ==: org.bukkit.Location
       world: IridiumSkyblock
-      x: 153.24499809846046
+      x: 153.4325338890722
       y: 82.0
-      z: 4.6411804338436635
-      pitch: 24.900005
-      yaw: 30.45697
+      z: 3.369163799221729
+      pitch: 15.9
+      yaw: 52.80002
     world:
       ==: org.bukkit.Location
       world: world
-      x: 13.989633333837176
-      y: 96.0
-      z: 40.16980851848283
-      pitch: 13.94989
-      yaw: 170.40038
+      x: 0.5203832979690846
+      y: 65.0
+      z: 5.572497075269571
+      pitch: 12.750102
+      yaw: -179.24873
+menuGroupList:
+- world
+- IridiumSkyblock

@@ -1,0 +1,10 @@
+world:
+  Spawn_Teleporting: false
+  Nether_Teleporting: false
+  End_Teleporting: false
+  Home_Teleporting: false
+IridiumSkyblock:
+  Spawn_Teleporting: false
+  Nether_Teleporting: false
+  End_Teleporting: false
+  Home_Teleporting: false
