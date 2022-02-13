@@ -1,0 +1,31 @@
+
+error-no-console: '&3Команда не доступна в консоли.'
+error-no-permission: '&3У вас нет прав для использования команды.'
+error-spawn-not-set: '&7Спавн не установлен.'
+error-no-spawn: '&7No spawn location data.'
+use-command: '&7Используйте команду &a/superlobby help | ? &7чтобы увидеть список
+  help.'
+use-command-setspawn: '&7Неверный аргумент. &7Use &e/superlobby &asetspawn &3<имя>.'
+use-command-setspawn-permission: '&7Неверный аргумент. &7Use &e/superlobby &asetspawnpermission
+  &3<name> <perm>.'
+use-command-remspawn: '&7Неверный аргумент. &7Use &e/superlobby &aremSpawn &3<name>
+  &7| &3all.'
+set-spawn: '&7Спавн <spawn> успешно &aустановлен.'
+rem-spawn: '&7Спавн <spawn> успешно &cудален.'
+click-wait: '&7Пожалкйста подождите &b<time> &7перед тем, как кликнуть снова.'
+error-no-command: '&cЭта команда не доступна.'
+error-no-world: '&cНе доступно в этом мире.'
+no-money: '&7У вас недостаточно денег.'
+config-loaded: '&7config, сообщения и предметы загружены.'
+help-command-reload: '&7[&6&l>&7] &a/superLobby reload'
+help-description-reload: '&7[&6&l-&7] &7Reload the configuration and messages file.'
+help-command-setSpawn: '&7[&6&l>&7] &a/superlobby setSpawn <name>'
+help-description-setSpawn: '&7[&6&l-&7] &7Set spawn location'
+help-command-remSpawn: '&7[&6&l>&7] &a/superlobby remSpawn <name> | all'
+help-description-remSpawn: '&7[&6&l-&7] &7Remove spawn location'
+error-no-menu: '&7Меню не существует.'
+error-no-online: '&7Игрок сейчас не онлайн.'
+use-command-openmenu: '&7Неверный аргумент. &7Use &e/superlobby &aopenmenu &3<playername>
+  <menuname>.'
+help-command-openmenu: '&7[&6&l>&7] &a/superlobby openmenu <playername> <menuname>'
+help-description-openmenu: '&7[&6&l-&7] &7Opens the selected menu GUI to player.'

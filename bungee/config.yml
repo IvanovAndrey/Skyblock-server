@@ -1,7 +1,7 @@
-prevent_proxy_connections: false
+server_connect_timeout: 5000
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: '&'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -28,7 +28,7 @@ permissions:
   - bungeecord.command.reload
 log_pings: true
 connection_throttle_limit: 3
-server_connect_timeout: 5000
+prevent_proxy_connections: false
 timeout: 30000
 player_limit: -1
 ip_forward: true
@@ -49,6 +49,6 @@ servers:
     address: localhost:25567
     restricted: false
   lobby:
-    motd: '&1Just another BungeeCord - Forced Host'
+    motd: '&1MaJey создал сервер'
     address: localhost:25577
     restricted: false
