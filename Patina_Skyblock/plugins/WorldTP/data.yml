@@ -1,0 +1,124 @@
+menuGroupID:
+  lobby:
+    WorldTPWorldSpawnPoint:
+      ==: org.bukkit.Location
+      world: world
+      x: 15.464567923137311
+      y: 96.0
+      z: 41.367447991063365
+      pitch: 80.0999
+      yaw: -173.09962
+    displayName: lobby
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: GRASS_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"text":"lobby"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+    admin: false
+  Skyblock:
+    displayName: Skyblock
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: GRASS_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"text":"Skyblock"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+    admin: false
+  world:
+    displayName: world
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: GRASS_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"text":"world"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+    admin: false
+  IridiumSkyblock:
+    displayName: IridiumSkyblock
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2865
+      type: GRASS_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"text":"IridiumSkyblock"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+    admin: false
+worldGroup:
+  lobby:
+    overworld: world
+    the_end: world_the_end
+    nether: world_nether
+  Skyblock:
+    nether: IridiumSkyblock_nether
+    overworld: IridiumSkyblock
+    the_end: IridiumSkyblock_the_end
+  world:
+    the_end: world_the_end
+    overworld: world
+    nether: world_nether
+  IridiumSkyblock:
+    nether: IridiumSkyblock_nether
+    overworld: IridiumSkyblock
+    the_end: IridiumSkyblock_the_end
+playerLocations:
+  KRISPIWINS:
+    'null':
+      ==: org.bukkit.Location
+      world: IridiumSkyblock
+      x: 0.699999988079071
+      y: 86.0
+      z: 151.28335340774893
+      pitch: 40.649822
+      yaw: -22.950327
+    IridiumSkyblock:
+      ==: org.bukkit.Location
+      world: IridiumSkyblock
+      x: 1.1968682656656864
+      y: 82.0
+      z: 154.38638063494867
+      pitch: 55.79988
+      yaw: -8.550103
+    world:
+      ==: org.bukkit.Location
+      world: world
+      x: 0.194556511155608
+      y: 65.0
+      z: 3.865995330932689
+      pitch: 8.999977
+      yaw: 175.3504
+  MaJey:
+    IridiumSkyblock:
+      ==: org.bukkit.Location
+      world: IridiumSkyblock
+      x: 152.86386916232723
+      y: 82.0
+      z: 4.5186903456483725
+      pitch: 29.999937
+      yaw: -1.5000038
+    world:
+      ==: org.bukkit.Location
+      world: world
+      x: 4.437686497096155
+      y: 65.0
+      z: -3.6860077211532993
+      pitch: 0.8923147
+      yaw: 175.33548
+menuGroupList:
+- world
+- IridiumSkyblock
