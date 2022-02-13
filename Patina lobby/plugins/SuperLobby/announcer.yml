@@ -22,7 +22,7 @@ message:
     - '&6&l&m>-----------------------------------------<'
     - '&e&l>&e&l> &6Increase the popularity of your server with the plugin:'
     - '&e&l>&e&l> &6https://www.spigotmc.org/resources/referralsystem.29709/'
-    - '&6&l&m>-----------------------------------------<'*/*/
+    - '&6&l&m>-----------------------------------------<'/
 titles:
   enable: false
   interval: 500
