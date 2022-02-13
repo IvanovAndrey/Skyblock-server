@@ -1,6 +1,7 @@
+prevent_proxy_connections: false
 listeners:
 - query_port: 25577
-  motd: '&'
+  motd: '&1MaJey создал сервер'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -29,7 +30,6 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: 4cbd49db-cb68-495d-87f6-a0137393a66a
 player_limit: -1
 ip_forward: true
 groups:
@@ -38,7 +38,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 4cbd49db-cb68-495d-87f6-a0137393a66a
 online_mode: false
 forge_support: false
 disabled_commands:

@@ -885,6 +885,7 @@ io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Адрес уж
 16:16:04 [INFO] [MaJey] -> UpstreamBridge has disconnected
 16:16:05 [INFO] Disabling plugins
 16:16:05 [INFO] Closing IO threads
+<<<<<<< HEAD
 16:38:17 [INFO] Using mbed TLS based native cipher.
 16:38:17 [INFO] Using zlib based native compressor.
 16:38:17 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:eae9d45:1631
@@ -1605,3 +1606,336 @@ io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Адрес уж
 15:06:44 [INFO] Disconnecting 0 connections
 15:06:44 [INFO] Disabling plugins
 15:06:44 [INFO] Closing IO threads
+=======
+05:33:30 [INFO] Using standard Java JCE cipher.
+05:33:30 [INFO] Using standard Java compressor.
+05:33:30 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:eae9d45:1631
+05:33:31 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+05:33:31 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+05:33:31 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+05:33:31 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+05:33:31 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+05:33:31 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+05:33:31 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [WARNING] Forced host server pvp is not defined
+05:33:31 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+05:33:31 [INFO] Listening on /0.0.0.0:25565
+05:34:12 [INFO] [/127.0.0.1:49192] <-> InitialHandler has pinged
+05:34:14 [INFO] [/127.0.0.1:49198] <-> InitialHandler has connected
+05:34:14 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+05:44:25 [INFO] [MaJey] -> UpstreamBridge has disconnected
+05:44:25 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+05:44:25 [INFO] [/127.0.0.1:49478] <-> InitialHandler has pinged
+05:44:27 [INFO] [/127.0.0.1:49486] <-> InitialHandler has pinged
+05:44:28 [INFO] [MaJey,/127.0.0.1:49489] <-> InitialHandler has connected
+05:44:28 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:01:51 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:01:51 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:01:51 [INFO] [/127.0.0.1:62302] <-> InitialHandler has pinged
+06:01:52 [INFO] [MaJey,/127.0.0.1:62307] <-> InitialHandler has connected
+06:01:52 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:02:47 [INFO] [MaJey] <-> ServerConnector [skyblock] has connected
+06:02:48 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:03:10 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:03:11 [INFO] [MaJey] <-> DownstreamBridge <-> [skyblock] has disconnected
+06:15:54 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:15:54 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:15:54 [INFO] [/127.0.0.1:59547] <-> InitialHandler has pinged
+06:15:56 [INFO] [MaJey,/127.0.0.1:59554] <-> InitialHandler has connected
+06:15:56 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:17:32 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:17:32 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:17:32 [INFO] [/127.0.0.1:59605] <-> InitialHandler has pinged
+06:17:33 [INFO] [MaJey,/127.0.0.1:59608] <-> InitialHandler has connected
+06:17:33 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:19:02 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:19:02 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:19:02 [INFO] [/127.0.0.1:59651] <-> InitialHandler has pinged
+06:19:03 [INFO] [MaJey,/127.0.0.1:59656] <-> InitialHandler has connected
+06:19:03 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:23:06 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:23:06 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:23:06 [INFO] [/127.0.0.1:59752] <-> InitialHandler has pinged
+06:23:07 [INFO] [MaJey,/127.0.0.1:59758] <-> InitialHandler has connected
+06:23:07 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:23:25 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:23:25 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:23:25 [INFO] [/127.0.0.1:59772] <-> InitialHandler has pinged
+06:23:26 [INFO] [MaJey,/127.0.0.1:59775] <-> InitialHandler has connected
+06:23:26 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:25:46 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:25:46 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:25:46 [INFO] [/127.0.0.1:59844] <-> InitialHandler has pinged
+06:25:47 [INFO] [MaJey,/127.0.0.1:59848] <-> InitialHandler has connected
+06:25:47 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:26:01 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:26:01 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:26:01 [INFO] [/127.0.0.1:59861] <-> InitialHandler has pinged
+06:26:02 [INFO] [MaJey,/127.0.0.1:59864] <-> InitialHandler has connected
+06:26:02 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:27:25 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:27:25 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:27:25 [INFO] [/127.0.0.1:59901] <-> InitialHandler has pinged
+06:27:26 [INFO] [MaJey,/127.0.0.1:59906] <-> InitialHandler has connected
+06:27:26 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:27:39 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:27:39 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:27:39 [INFO] [/127.0.0.1:59918] <-> InitialHandler has pinged
+06:27:40 [INFO] [MaJey,/127.0.0.1:59919] <-> InitialHandler has connected
+06:27:40 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:27:54 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:27:54 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:27:54 [INFO] [/127.0.0.1:51593] <-> InitialHandler has pinged
+06:27:55 [INFO] [MaJey,/127.0.0.1:51596] <-> InitialHandler has connected
+06:27:55 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:28:30 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:28:30 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:28:30 [INFO] [/127.0.0.1:51619] <-> InitialHandler has pinged
+06:28:31 [INFO] [MaJey,/127.0.0.1:51623] <-> InitialHandler has connected
+06:28:31 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:29:31 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:29:31 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:29:31 [INFO] [/127.0.0.1:51655] <-> InitialHandler has pinged
+06:29:32 [INFO] [MaJey,/127.0.0.1:51659] <-> InitialHandler has connected
+06:29:32 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:30:07 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:30:07 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:30:07 [INFO] [/127.0.0.1:51677] <-> InitialHandler has pinged
+06:30:08 [INFO] [MaJey,/127.0.0.1:51683] <-> InitialHandler has connected
+06:30:08 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:33:13 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:33:13 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:33:13 [INFO] [/127.0.0.1:51760] <-> InitialHandler has pinged
+06:33:14 [INFO] [MaJey,/127.0.0.1:51765] <-> InitialHandler has connected
+06:33:14 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:33:32 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:33:32 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:33:32 [INFO] [/127.0.0.1:51781] <-> InitialHandler has pinged
+06:33:33 [INFO] [MaJey,/127.0.0.1:51783] <-> InitialHandler has connected
+06:33:33 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:34:43 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:34:43 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:34:43 [INFO] [/127.0.0.1:51818] <-> InitialHandler has pinged
+06:34:43 [INFO] [MaJey,/127.0.0.1:51822] <-> InitialHandler has connected
+06:34:43 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:34:50 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:34:50 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:34:50 [INFO] [/127.0.0.1:51832] <-> InitialHandler has pinged
+06:34:52 [INFO] [MaJey,/127.0.0.1:51835] <-> InitialHandler has connected
+06:34:52 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:35:11 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:35:11 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:35:11 [INFO] [/127.0.0.1:51847] <-> InitialHandler has pinged
+06:35:12 [INFO] [MaJey,/127.0.0.1:51852] <-> InitialHandler has connected
+06:35:12 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:35:24 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:35:24 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:35:25 [INFO] [/127.0.0.1:51866] <-> InitialHandler has pinged
+06:35:25 [INFO] [MaJey,/127.0.0.1:51868] <-> InitialHandler has connected
+06:35:25 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:36:57 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:36:57 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:36:57 [INFO] [/127.0.0.1:51909] <-> InitialHandler has pinged
+06:36:58 [INFO] [MaJey,/127.0.0.1:51914] <-> InitialHandler has connected
+06:36:58 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:38:18 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:38:18 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:38:18 [INFO] [/127.0.0.1:51949] <-> InitialHandler has pinged
+06:38:19 [INFO] [MaJey,/127.0.0.1:51954] <-> InitialHandler has connected
+06:38:19 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:40:44 [INFO] [MaJey] disconnected with: �fServer closed
+06:40:44 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:40:44 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:41:07 [INFO] [/127.0.0.1:52024] <-> InitialHandler has pinged
+06:41:08 [INFO] [MaJey,/127.0.0.1:52027] <-> InitialHandler has connected
+06:41:08 [INFO] [MaJey] disconnected with: �cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25577
+06:41:08 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:41:09 [INFO] [/127.0.0.1:52032] <-> InitialHandler has pinged
+06:41:10 [INFO] [MaJey,/127.0.0.1:52035] <-> InitialHandler has connected
+06:41:10 [INFO] [MaJey] disconnected with: �cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25577
+06:41:10 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:41:24 [INFO] [/127.0.0.1:52046] <-> InitialHandler has pinged
+06:41:24 [INFO] [MaJey,/127.0.0.1:52048] <-> InitialHandler has connected
+06:41:24 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:41:49 [INFO] [MaJey] disconnected with: �fServer closed
+06:41:49 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:41:49 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:48:20 [INFO] [/127.0.0.1:52242] <-> InitialHandler has pinged
+06:48:21 [INFO] [MaJey,/127.0.0.1:52247] <-> InitialHandler has connected
+06:48:21 [INFO] [MaJey] disconnected with: �cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25577
+06:48:21 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:48:22 [INFO] [/127.0.0.1:52254] <-> InitialHandler has pinged
+06:48:23 [INFO] [MaJey,/127.0.0.1:52255] <-> InitialHandler has connected
+06:48:23 [INFO] [MaJey] disconnected with: �cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25577
+06:48:23 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:48:27 [INFO] [/127.0.0.1:52263] <-> InitialHandler has pinged
+06:48:28 [INFO] [MaJey,/127.0.0.1:52264] <-> InitialHandler has connected
+06:48:28 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:57:40 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:57:40 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:57:40 [INFO] [/127.0.0.1:52496] <-> InitialHandler has pinged
+06:57:41 [INFO] [MaJey,/127.0.0.1:52502] <-> InitialHandler has connected
+06:57:41 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+06:57:55 [INFO] [MaJey] -> UpstreamBridge has disconnected
+06:57:55 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+06:57:55 [INFO] [/127.0.0.1:52513] <-> InitialHandler has pinged
+06:57:56 [INFO] [MaJey,/127.0.0.1:52516] <-> InitialHandler has connected
+06:57:56 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:01:11 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:01:11 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:01:11 [INFO] [/127.0.0.1:52607] <-> InitialHandler has pinged
+07:01:12 [INFO] [MaJey,/127.0.0.1:52612] <-> InitialHandler has connected
+07:01:12 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:01:16 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:01:16 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:01:16 [INFO] [/127.0.0.1:52621] <-> InitialHandler has pinged
+07:01:16 [INFO] [MaJey,/127.0.0.1:52623] <-> InitialHandler has connected
+07:01:16 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:01:20 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:01:20 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:01:20 [INFO] [/127.0.0.1:52631] <-> InitialHandler has pinged
+07:01:20 [INFO] [MaJey,/127.0.0.1:52632] <-> InitialHandler has connected
+07:01:20 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:05:31 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:05:31 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:05:31 [INFO] [/127.0.0.1:52735] <-> InitialHandler has pinged
+07:05:32 [INFO] [MaJey,/127.0.0.1:52739] <-> InitialHandler has connected
+07:05:32 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:08:56 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:08:56 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:08:56 [INFO] [/127.0.0.1:52829] <-> InitialHandler has pinged
+07:08:58 [INFO] [/127.0.0.1:52838] <-> InitialHandler has pinged
+07:09:17 [INFO] [/127.0.0.1:52850] <-> InitialHandler has pinged
+07:10:58 [INFO] [/127.0.0.1:52891] <-> InitialHandler has pinged
+07:10:58 [INFO] [/127.0.0.1:52898] <-> InitialHandler has pinged
+07:10:58 [INFO] [/127.0.0.1:52905] <-> InitialHandler has pinged
+07:11:18 [INFO] [/127.0.0.1:52916] <-> InitialHandler has pinged
+07:11:18 [INFO] [MaJey,/127.0.0.1:52918] <-> InitialHandler has connected
+07:11:18 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:11:21 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:11:21 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:11:21 [INFO] [/127.0.0.1:52928] <-> InitialHandler has pinged
+07:12:53 [INFO] [/127.0.0.1:52968] <-> InitialHandler has pinged
+07:12:54 [INFO] [/127.0.0.1:52976] <-> InitialHandler has pinged
+07:12:54 [INFO] [/127.0.0.1:52981] <-> InitialHandler has pinged
+07:12:54 [INFO] [/127.0.0.1:52986] <-> InitialHandler has pinged
+07:13:15 [INFO] [/127.0.0.1:52998] <-> InitialHandler has pinged
+07:13:15 [INFO] [/127.0.0.1:53004] <-> InitialHandler has pinged
+07:13:15 [INFO] [/127.0.0.1:53009] <-> InitialHandler has pinged
+07:13:16 [INFO] [/127.0.0.1:53019] <-> InitialHandler has pinged
+07:13:36 [INFO] [MaJey,/127.0.0.1:53032] <-> InitialHandler has connected
+07:13:36 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:13:36 [INFO] [/127.0.0.1:53034] <-> InitialHandler has pinged
+07:13:36 [INFO] [/127.0.0.1:53040] <-> InitialHandler has pinged
+07:13:38 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:13:38 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:13:39 [INFO] [/127.0.0.1:53048] <-> InitialHandler has pinged
+07:13:52 [INFO] [/127.0.0.1:53058] <-> InitialHandler has pinged
+07:14:35 [INFO] [/127.0.0.1:53082] <-> InitialHandler has pinged
+07:14:36 [INFO] [MaJey,/127.0.0.1:53086] <-> InitialHandler has connected
+07:14:36 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:14:38 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:14:38 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:14:38 [INFO] [/127.0.0.1:53096] <-> InitialHandler has pinged
+07:14:39 [INFO] [/127.0.0.1:53101] <-> InitialHandler has pinged
+07:14:43 [INFO] [/127.0.0.1:53107] <-> InitialHandler has pinged
+07:14:52 [INFO] [MaJey,/127.0.0.1:53115] <-> InitialHandler has connected
+07:14:52 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:14:54 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:14:54 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:14:56 [INFO] [/127.0.0.1:53121] <-> InitialHandler has pinged
+07:14:58 [INFO] [MaJey,/127.0.0.1:53127] <-> InitialHandler has connected
+07:14:58 [INFO] [MaJey] <-> ServerConnector [lobby] has connected
+07:15:00 [INFO] [/127.0.0.1:53132] <-> InitialHandler has pinged
+07:15:49 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:15:49 [INFO] [MaJey] <-> DownstreamBridge <-> [lobby] has disconnected
+07:15:49 [INFO] [/127.0.0.1:51931] <-> InitialHandler has pinged
+07:15:53 [INFO] [/127.0.0.1:51939] <-> InitialHandler has pinged
+07:15:54 [INFO] [/127.0.0.1:51944] <-> InitialHandler has pinged
+07:17:46 [INFO] [/127.0.0.1:51998] <-> InitialHandler has pinged
+07:17:47 [INFO] [MaJey,/127.0.0.1:52004] <-> InitialHandler has connected
+07:17:47 [INFO] [MaJey] disconnected with: �cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25577
+07:17:47 [INFO] [MaJey] -> UpstreamBridge has disconnected
+07:17:49 [INFO] [MaJey,/127.0.0.1:52006] <-> InitialHandler has connected
+07:17:49 [INFO] [MaJey] disconnected with: �cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25577
+07:17:49 [INFO] [MaJey] -> UpstreamBridge has disconnected
+>>>>>>> cb59ceabf96208e80adc14b2c5f46e3afa952622
+17:21:03 [INFO] Using mbed TLS based native cipher.
+17:21:03 [INFO] Using zlib based native compressor.
+17:21:03 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:eae9d45:1631
+17:21:03 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+17:21:03 [INFO] Epoll is working, utilising it!
+17:21:03 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+17:21:03 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+17:21:03 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+17:21:03 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+17:21:03 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+17:21:03 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+17:21:03 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [WARNING] Forced host server pvp is not defined
+17:21:03 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+17:21:03 [INFO] Listening on /0.0.0.0:25565
+17:21:06 [SEVERE] Exception in thread "main" 
+17:21:06 [SEVERE] java.io.IOException: Ошибка ввода/вывода
+
+17:21:06 [SEVERE] 	at java.base/java.io.FileInputStream.read0(Native Method)
+
+17:21:06 [SEVERE] 	at java.base/java.io.FileInputStream.read(FileInputStream.java:228)
+
+17:21:06 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+
+17:21:06 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+
+17:21:06 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+
+17:21:06 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+
+17:21:06 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+
+17:21:06 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+
+17:21:06 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+
+17:21:06 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2269)
+
+17:21:06 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:72)
+
+17:21:06 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+
+17:21:06 [INFO] Closing listener [id: 0x65707a7f, L:/[0:0:0:0:0:0:0:0%0]:25565]
+17:21:06 [INFO] Closing pending connections
+17:21:06 [INFO] Disconnecting 0 connections
+17:21:07 [INFO] Disabling plugins
+17:21:07 [INFO] Closing IO threads

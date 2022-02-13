@@ -2,13 +2,13 @@
 
 echo "Starting..."
 
-cd Patina_lobby
+cd Patina\ lobby
 
 gnome-terminal -- java -Xmx2024M -Xms2024M -jar patina.jar
 
 cd .. 
 
-cd Patina_Skyblock
+cd Patina\ Skyblock \test
 
 gnome-terminal -- java -Xmx2024M -Xms2024M -jar patina.jar
 
