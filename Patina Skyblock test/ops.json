@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "d80a6cc1-2a12-4ae4-a2f5-2b800d3a2f0f",
+    "name": "KRISPIWINS",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "7d37b614-a227-3ed0-ae6d-5b1df6827db9",
     "name": "KRISPIWINS",
     "level": 4,

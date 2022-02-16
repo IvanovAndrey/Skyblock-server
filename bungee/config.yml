@@ -1,3 +1,4 @@
+server_connect_timeout: 5000
 listeners:
 - query_port: 25577
   motd: '&'
@@ -8,7 +9,7 @@ listeners:
     pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
-  - lobby
+  - hub
   bind_local_address: true
   host: 0.0.0.0:25565
   max_players: 1
@@ -18,27 +19,32 @@ remote_ping_cache: -1
 network_compression_threshold: 256
 permissions:
   default:
+  - permission.hub
+  - permission.testcommand
   - bungeecord.command.server
   - bungeecord.command.list
   admin:
+  - permission.hub
+  - permission.testcommand
   - bungeecord.command.alert
   - bungeecord.command.end
   - bungeecord.command.ip
   - bungeecord.command.reload
 log_pings: true
 connection_throttle_limit: 3
-server_connect_timeout: 5000
+prevent_proxy_connections: false
 timeout: 30000
-stats: 4cbd49db-cb68-495d-87f6-a0137393a66a
 player_limit: -1
 ip_forward: true
 groups:
-  md_5:
+  KRISPIWINS:
+  - admin
+  MaJey:
   - admin
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 4cbd49db-cb68-495d-87f6-a0137393a66a
 online_mode: true
 forge_support: false
 disabled_commands:
@@ -48,7 +54,7 @@ servers:
     motd: '&1SkyBlock'
     address: localhost:25567
     restricted: false
-  lobby:
-    motd: '&1MaJey создал сервер'
+  hub:
+    motd: '&1Hub'
     address: localhost:25577
     restricted: false
