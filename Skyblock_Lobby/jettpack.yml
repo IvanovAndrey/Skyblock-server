@@ -1,0 +1,9 @@
+# This is the main configuration file for JettPack.
+# JettPack does some **experimental** and possibly unstable stuff
+# You've been warned
+
+verbose: false
+settings:
+  log-player-login-location: true
+  fishing-rod-length: 1024.0
+config-version: 1

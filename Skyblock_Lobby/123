@@ -1,0 +1,3 @@
+java -Xmx2024M -Xms2024M -jar patina.jar
+java -Xmx1024M -Xms1024M -jar patina.jar
+java -Xmx2024M -Xms2024M -jar patina.jar nogui

@@ -1,187 +1,182 @@
-[00:00:09] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:00:10] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[00:00:11] [Worker-Main-1/INFO]: Loaded 7 recipes
-[00:00:15] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[00:00:15] [Server thread/INFO]: Loading properties
-[00:00:16] [Server thread/INFO]: This server is running Patina version git-Paper-"4f577f6" (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 4f577f6 on ver/1.18.1)
-[00:00:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:00:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:00:16] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
-[00:00:16] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
-[00:00:16] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
-[00:00:16] [Server thread/INFO]: Default game type: SURVIVAL
-[00:00:16] [Server thread/INFO]: Generating keypair
-[00:00:17] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25577
-[00:00:17] [Server thread/INFO]: Using epoll channel type
-[00:00:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:00:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:00:18] [Server thread/INFO]: [SuperLobby] Loading SuperLobby v4.3.7
-[00:00:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:00:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:00:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:00:18] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[00:00:18] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[00:00:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:00:18] [Server thread/INFO]: Preparing level "world"
-[00:00:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:00:20] [Server thread/INFO]: Time elapsed: 983 ms
-[00:00:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:00:20] [Server thread/INFO]: Time elapsed: 355 ms
-[00:00:20] [Server thread/INFO]: Preparing start region for dimension minecraft:lps
-[00:00:21] [Server thread/INFO]: Time elapsed: 301 ms
-[00:00:21] [Server thread/INFO]: Preparing start region for dimension minecraft:helheim
-[00:00:21] [Server thread/INFO]: Time elapsed: 386 ms
-[00:00:21] [Server thread/INFO]: Preparing start region for dimension minecraft:bossarena
-[00:00:22] [Server thread/INFO]: Time elapsed: 471 ms
-[00:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:islands
-[00:00:22] [Server thread/INFO]: Time elapsed: 433 ms
-[00:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:duels
-[00:00:22] [Server thread/INFO]: Time elapsed: 413 ms
-[00:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:monstertower
-[00:00:23] [Server thread/INFO]: Time elapsed: 385 ms
-[00:00:23] [Server thread/INFO]: [SuperLobby] Enabling SuperLobby v4.3.7
-[00:00:23] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]    _____                       _           _     _           
-[00:00:23] [Server thread/WARN]: Nag author(s): '[PedroJM96]' of 'SuperLobby' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]   / ____|                     | |         | |   | |          
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _ 
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | |
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| |
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]               | |                                       __/ |
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]               |_|                                      |___/ 
-[00:00:23] [Server thread/INFO]: [SuperLobby] [STDOUT]     
-[00:00:23] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[00:00:23] [Server thread/INFO]: [SuperLobby] Deluxe Version: V4.3.7
-[00:00:23] [Server thread/INFO]: [SuperLobby] Plugin Create by PedroJM96.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Loading configuration...
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load config.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] config.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load messages_EN.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] messages_EN.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load spawn.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] spawn.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load chat.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] chat.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load infocommands.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] infocommands.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register info command /info
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register info command /youtubers
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register info command /socialpages
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register info command /rewards
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register info command /rules
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register info command /help
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load customevents.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] customevents.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load items.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] items.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Lobby-Item: The item menu has an invalid item Material: SIGN.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Lobby-Item: The item profile has an invalid item Material: SKULL_ITEM.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load menus.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] menus.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register command menu /menu
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register command menu /game
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register command menu /profile
-[00:00:23] [Server thread/INFO]: [SuperLobby] Register command menu /shop
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load board.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby] board.yml loaded.
-[00:00:23] [Server thread/INFO]: [SuperLobby] Load announcer.yml
-[00:00:23] [Server thread/INFO]: [SuperLobby]Fatal-Error: Error on loaded announcer.yml.
-[00:00:23] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
-[00:00:23] [Server thread/WARN]:  in 'reader', line 6, column 5:
-[00:00:23] [Server thread/WARN]:         message1:
-[00:00:23] [Server thread/WARN]:         ^
-[00:00:23] [Server thread/WARN]: expected <block end>, but found '<scalar>'
-[00:00:23] [Server thread/WARN]:  in 'reader', line 25, column 58:
-[00:00:23] [Server thread/WARN]:      ... ------------------------------<'/
-[00:00:23] [Server thread/WARN]:                                          ^
-[00:00:23] [Server thread/WARN]: 
-[00:00:23] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
-[00:00:23] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
-[00:00:23] [Server thread/WARN]: 	at SuperLobbyDeluxe-4.3.7-shaded.jar//com.pedrojm96.superlobby.CoreConfig.load(CoreConfig.java:184)
-[00:00:23] [Server thread/WARN]: 	at SuperLobbyDeluxe-4.3.7-shaded.jar//com.pedrojm96.superlobby.CoreConfig.<init>(CoreConfig.java:86)
-[00:00:23] [Server thread/WARN]: 	at SuperLobbyDeluxe-4.3.7-shaded.jar//com.pedrojm96.superlobby.SuperLobby.onEnable(SuperLobby.java:165)
-[00:00:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[00:00:23] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
-[00:00:23] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
-[00:00:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564)
-[00:00:23] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478)
-[00:00:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:730)
-[00:00:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:506)
-[00:00:23] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:333)
-[00:00:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1205)
-[00:00:23] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:320)
-[00:00:23] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[00:00:23] [Server thread/WARN]: Caused by: while parsing a block mapping
-[00:00:23] [Server thread/WARN]:  in 'reader', line 6, column 5:
-[00:00:23] [Server thread/WARN]:         message1:
-[00:00:23] [Server thread/WARN]:         ^
-[00:00:23] [Server thread/WARN]: expected <block end>, but found '<scalar>'
-[00:00:24] [Server thread/WARN]:  in 'reader', line 25, column 58:
-[00:00:24] [Server thread/WARN]:      ... ------------------------------<'/
-[00:00:24] [Server thread/WARN]:                                          ^
-[00:00:24] [Server thread/WARN]: 
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:644)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:252)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:186)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:142)
-[00:00:24] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
-[00:00:24] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102)
-[00:00:24] [Server thread/WARN]: 	... 15 more
-[00:00:24] [Server thread/INFO]: [SuperLobby] Load firstjoin.yml
-[00:00:24] [Server thread/INFO]: [SuperLobby] firstjoin.yml loaded.
-[00:00:24] [Server thread/INFO]: [SuperLobby] Register commands...
-[00:00:24] [Server thread/INFO]: [SuperLobby] Register main command superlobby
-[00:00:24] [Server thread/INFO]: [SuperLobby] Register sub-command setspawn
-[00:00:24] [Server thread/INFO]: [SuperLobby] Register sub-command setspawnpermission
-[00:00:24] [Server thread/INFO]: [SuperLobby] Register sub-command remspawn
-[00:00:24] [Server thread/INFO]: [SuperLobby] Register sub-command reload
-[00:00:24] [Server thread/INFO]: [SuperLobby] Register sub-command help
-[00:00:24] [Server thread/INFO]: [SuperLobby] Register sub-command openmenu
-[00:00:24] [Server thread/INFO]: [SuperLobby] A total of 4 menus were loaded.
-[00:00:24] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-[00:00:25] [Server thread/INFO]: Running delayed init tasks
-[00:00:26] [Server thread/INFO]: Done (10.670s)! For help, type "help"
-[00:00:26] [Server thread/INFO]: Timings Reset
-[00:00:58] [User Authenticator #1/INFO]: UUID of player MaJey is 3c4436ae-850e-4dc0-8878-b5d26aab7101
-[00:00:59] [Server thread/INFO]: The owner MaJey joined the server!
-[00:00:59] [Server thread/INFO]: MaJey[/95.29.44.207:38141] logged in with entity id 45 at ([world]19.5, 68.0, -23.5)
-[00:01:08] [User Authenticator #1/INFO]: UUID of player KRISPIWINS is d80a6cc1-2a12-4ae4-a2f5-2b800d3a2f0f
-[00:01:08] [Server thread/INFO]: The owner KRISPIWINS joined the server!
-[00:01:08] [Server thread/INFO]: KRISPIWINS[/109.235.219.214:60207] logged in with entity id 50 at ([world]19.5, 68.0, -23.5)
-[00:01:16] [Server thread/INFO]: MaJey lost connection: Disconnected
-[00:01:16] [Server thread/INFO]: The owner MaJey leave the server!
-[00:01:29] [Server thread/INFO]: KRISPIWINS lost connection: Disconnected
-[00:01:29] [Server thread/INFO]: The owner KRISPIWINS leave the server!
-[00:01:41] [User Authenticator #1/INFO]: UUID of player KRISPIWINS is d80a6cc1-2a12-4ae4-a2f5-2b800d3a2f0f
-[00:01:41] [User Authenticator #1/INFO]: UUID of player MaJey is 3c4436ae-850e-4dc0-8878-b5d26aab7101
-[00:01:41] [Server thread/INFO]: The owner KRISPIWINS joined the server!
-[00:01:41] [Server thread/INFO]: KRISPIWINS[/109.235.219.214:50153] logged in with entity id 51 at ([world]19.5, 68.0, -23.5)
-[00:01:41] [Server thread/INFO]: The owner MaJey joined the server!
-[00:01:41] [Server thread/INFO]: MaJey[/95.29.44.207:51789] logged in with entity id 52 at ([world]19.5, 68.0, -23.5)
-[00:01:53] [Server thread/INFO]: KRISPIWINS lost connection: Disconnected
-[00:01:53] [Server thread/INFO]: The owner KRISPIWINS leave the server!
-[00:01:55] [Server thread/INFO]: MaJey lost connection: Disconnected
-[00:01:55] [Server thread/INFO]: The owner MaJey leave the server!
-[00:01:56] [Server console handler/ERROR]: Caught previously unhandled exception :
+[14:01:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:01:24] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[14:01:26] [Worker-Main-1/INFO]: Loaded 7 recipes
+[14:01:30] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[14:01:30] [Server thread/INFO]: Loading properties
+[14:01:30] [Server thread/INFO]: This server is running Patina version git-Paper-"4f577f6" (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 4f577f6 on ver/1.18.1)
+[14:01:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:01:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:01:30] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[14:01:30] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[14:01:30] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[14:01:31] [Server thread/INFO]: Default game type: SURVIVAL
+[14:01:31] [Server thread/INFO]: Generating keypair
+[14:01:31] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25577
+[14:01:31] [Server thread/INFO]: Using epoll channel type
+[14:01:31] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:01:31] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:01:32] [Server thread/INFO]: [SuperLobby] Loading SuperLobby v4.3.7
+[14:01:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:01:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:01:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:01:32] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:01:32] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[14:01:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:01:32] [Server thread/INFO]: Preparing level "world"
+[14:01:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:01:34] [Server thread/INFO]: Time elapsed: 816 ms
+[14:01:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:01:34] [Server thread/INFO]: Time elapsed: 348 ms
+[14:01:34] [Server thread/INFO]: Preparing start region for dimension minecraft:lps
+[14:01:35] [Server thread/INFO]: Time elapsed: 842 ms
+[14:01:35] [Server thread/INFO]: Preparing start region for dimension minecraft:helheim
+[14:01:36] [Server thread/INFO]: Time elapsed: 570 ms
+[14:01:36] [Server thread/INFO]: Preparing start region for dimension minecraft:bossarena
+[14:01:36] [Server thread/INFO]: Time elapsed: 608 ms
+[14:01:36] [Server thread/INFO]: Preparing start region for dimension minecraft:islands
+[14:01:37] [Server thread/INFO]: Time elapsed: 535 ms
+[14:01:37] [Server thread/INFO]: Preparing start region for dimension minecraft:duels
+[14:01:37] [Server thread/INFO]: Time elapsed: 274 ms
+[14:01:37] [Server thread/INFO]: Preparing start region for dimension minecraft:monstertower
+[14:01:38] [Server thread/INFO]: Time elapsed: 420 ms
+[14:01:38] [Server thread/INFO]: [SuperLobby] Enabling SuperLobby v4.3.7
+[14:01:38] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]    _____                       _           _     _           
+[14:01:38] [Server thread/WARN]: Nag author(s): '[PedroJM96]' of 'SuperLobby' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]   / ____|                     | |         | |   | |          
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _ 
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | |
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| |
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]               | |                                       __/ |
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]               |_|                                      |___/ 
+[14:01:38] [Server thread/INFO]: [SuperLobby] [STDOUT]     
+[14:01:38] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[14:01:38] [Server thread/INFO]: [SuperLobby] Deluxe Version: V4.3.7
+[14:01:38] [Server thread/INFO]: [SuperLobby] Plugin Create by PedroJM96.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Loading configuration...
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load config.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] config.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load messages_EN.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] messages_EN.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load spawn.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] spawn.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load chat.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] chat.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load infocommands.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] infocommands.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register info command /info
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register info command /youtubers
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register info command /socialpages
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register info command /rewards
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register info command /rules
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register info command /help
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load customevents.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] customevents.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load items.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] items.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Lobby-Item: The item menu has an invalid item Material: SIGN.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Lobby-Item: The item profile has an invalid item Material: SKULL_ITEM.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load menus.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] menus.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register command menu /menu
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register command menu /game
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register command menu /profile
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register command menu /shop
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load board.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] board.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load announcer.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby]Fatal-Error: Error on loaded announcer.yml.
+[14:01:38] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+[14:01:38] [Server thread/WARN]:  in 'reader', line 6, column 5:
+[14:01:38] [Server thread/WARN]:         message1:
+[14:01:38] [Server thread/WARN]:         ^
+[14:01:38] [Server thread/WARN]: expected <block end>, but found '<scalar>'
+[14:01:38] [Server thread/WARN]:  in 'reader', line 25, column 58:
+[14:01:38] [Server thread/WARN]:      ... ------------------------------<'/
+[14:01:38] [Server thread/WARN]:                                          ^
+[14:01:38] [Server thread/WARN]: 
+[14:01:38] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
+[14:01:38] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[14:01:38] [Server thread/WARN]: 	at SuperLobbyDeluxe-4.3.7-shaded.jar//com.pedrojm96.superlobby.CoreConfig.load(CoreConfig.java:184)
+[14:01:38] [Server thread/WARN]: 	at SuperLobbyDeluxe-4.3.7-shaded.jar//com.pedrojm96.superlobby.CoreConfig.<init>(CoreConfig.java:86)
+[14:01:38] [Server thread/WARN]: 	at SuperLobbyDeluxe-4.3.7-shaded.jar//com.pedrojm96.superlobby.SuperLobby.onEnable(SuperLobby.java:165)
+[14:01:38] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[14:01:38] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[14:01:38] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[14:01:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564)
+[14:01:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478)
+[14:01:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:730)
+[14:01:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:506)
+[14:01:38] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:333)
+[14:01:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1205)
+[14:01:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:320)
+[14:01:38] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:01:38] [Server thread/WARN]: Caused by: while parsing a block mapping
+[14:01:38] [Server thread/WARN]:  in 'reader', line 6, column 5:
+[14:01:38] [Server thread/WARN]:         message1:
+[14:01:38] [Server thread/WARN]:         ^
+[14:01:38] [Server thread/WARN]: expected <block end>, but found '<scalar>'
+[14:01:38] [Server thread/WARN]:  in 'reader', line 25, column 58:
+[14:01:38] [Server thread/WARN]:      ... ------------------------------<'/
+[14:01:38] [Server thread/WARN]:                                          ^
+[14:01:38] [Server thread/WARN]: 
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:644)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:252)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:186)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:142)
+[14:01:38] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[14:01:38] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102)
+[14:01:38] [Server thread/WARN]: 	... 15 more
+[14:01:38] [Server thread/INFO]: [SuperLobby] Load firstjoin.yml
+[14:01:38] [Server thread/INFO]: [SuperLobby] firstjoin.yml loaded.
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register commands...
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register main command superlobby
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register sub-command setspawn
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register sub-command setspawnpermission
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register sub-command remspawn
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register sub-command reload
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register sub-command help
+[14:01:38] [Server thread/INFO]: [SuperLobby] Register sub-command openmenu
+[14:01:39] [Server thread/INFO]: [SuperLobby] A total of 4 menus were loaded.
+[14:01:39] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[14:01:39] [Server thread/INFO]: Running delayed init tasks
+[14:01:41] [Server thread/INFO]: Done (10.714s)! For help, type "help"
+[14:01:41] [Server thread/INFO]: Timings Reset
+[14:02:14] [User Authenticator #1/INFO]: UUID of player KRISPIWINS is d80a6cc1-2a12-4ae4-a2f5-2b800d3a2f0f
+[14:02:14] [Server thread/INFO]: The owner KRISPIWINS joined the server!
+[14:02:14] [Server thread/INFO]: KRISPIWINS[/109.235.219.214:34941] logged in with entity id 45 at ([world]19.5, 68.0, -23.5)
+[14:02:33] [Server thread/INFO]: KRISPIWINS lost connection: Disconnected
+[14:02:33] [Server thread/INFO]: The owner KRISPIWINS leave the server!
+[14:13:47] [User Authenticator #2/INFO]: UUID of player KRISPIWINS is d80a6cc1-2a12-4ae4-a2f5-2b800d3a2f0f
+[14:13:47] [Server thread/INFO]: The owner KRISPIWINS joined the server!
+[14:13:47] [Server thread/INFO]: KRISPIWINS[/109.235.219.214:40497] logged in with entity id 50 at ([world]19.5, 68.0, -23.5)
+[14:14:25] [Server thread/INFO]: KRISPIWINS lost connection: Disconnected
+[14:14:25] [Server thread/INFO]: The owner KRISPIWINS leave the server!
+[14:14:37] [User Authenticator #2/INFO]: UUID of player KRISPIWINS is d80a6cc1-2a12-4ae4-a2f5-2b800d3a2f0f
+[14:14:37] [Server thread/INFO]: The owner KRISPIWINS joined the server!
+[14:14:37] [Server thread/INFO]: KRISPIWINS[/109.235.219.214:40425] logged in with entity id 51 at ([world]19.5, 68.0, -23.5)
+[14:14:53] [Server thread/INFO]: KRISPIWINS lost connection: Disconnected
+[14:14:53] [Server thread/INFO]: The owner KRISPIWINS leave the server!
+[14:16:15] [Server console handler/ERROR]: Caught previously unhandled exception :
 java.io.IOError: java.io.IOException: Ошибка ввода/вывода
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
@@ -202,26 +197,26 @@ Caused by: java.io.IOException: Ошибка ввода/вывода
 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
 	... 9 more
-[00:01:56] [Server thread/INFO]: Stopping server
-[00:01:56] [Server thread/INFO]: Saving players
-[00:01:56] [Server thread/INFO]: Saving worlds
-[00:01:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:01:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_lps]'/minecraft:lps
-[00:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_helheim]'/minecraft:helheim
-[00:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_bossarena]'/minecraft:bossarena
-[00:02:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_islands]'/minecraft:islands
-[00:02:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_duels]'/minecraft:duels
-[00:02:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_monstertower]'/minecraft:monstertower
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (lps): All chunks are saved
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (helheim): All chunks are saved
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (bossarena): All chunks are saved
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (islands): All chunks are saved
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (duels): All chunks are saved
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (monstertower): All chunks are saved
-[00:02:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:02:00] [Server thread/INFO]: Flushing Chunk IO
-[00:02:00] [Server thread/INFO]: Closing Thread Pool
-[00:02:00] [Server thread/INFO]: Closing Server
+[14:16:15] [Server thread/INFO]: Stopping server
+[14:16:15] [Server thread/INFO]: Saving players
+[14:16:15] [Server thread/INFO]: Saving worlds
+[14:16:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:16:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:16:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_lps]'/minecraft:lps
+[14:16:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_helheim]'/minecraft:helheim
+[14:16:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_bossarena]'/minecraft:bossarena
+[14:16:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_islands]'/minecraft:islands
+[14:16:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_duels]'/minecraft:duels
+[14:16:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_minecraft_monstertower]'/minecraft:monstertower
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (lps): All chunks are saved
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (helheim): All chunks are saved
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (bossarena): All chunks are saved
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (islands): All chunks are saved
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (duels): All chunks are saved
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (monstertower): All chunks are saved
+[14:16:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:16:15] [Server thread/INFO]: Flushing Chunk IO
+[14:16:15] [Server thread/INFO]: Closing Thread Pool
+[14:16:15] [Server thread/INFO]: Closing Server

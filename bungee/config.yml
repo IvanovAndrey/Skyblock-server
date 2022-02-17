@@ -24,6 +24,7 @@ permissions:
   - bungeecord.command.server
   - bungeecord.command.list
   admin:
+  - permission.spawn
   - permission.hub
   - permission.testcommand
   - bungeecord.command.alert
@@ -57,4 +58,8 @@ servers:
   hub:
     motd: '&1Hub'
     address: localhost:25577
+    restricted: false
+  skyblock_lobby:
+    motd: '&1skyblock_lobby'
+    address: localhost:25566
     restricted: false
