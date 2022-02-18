@@ -1,331 +1,268 @@
 {
-  "minecraft:recipes/tools/fishing_rod": {
+  "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
-      "has_string": "2022-02-12 12:40:39 +0300"
+      "has_stick": "2022-02-12 17:22:01 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/combat/bow": {
+  "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
-      "has_string": "2022-02-12 12:40:39 +0300"
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/black_stained_glass": {
+  "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
+      "has_chiseled_quartz_block": "2022-02-12 17:15:07 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
+      "has_stick": "2022-02-12 17:22:01 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:skeleton": "2022-02-12 12:38:27 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting": {
-    "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/loom": {
-    "criteria": {
-      "has_string": "2022-02-12 12:40:39 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
-    "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glass_bottle": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:windswept_hills": "2022-02-12 12:35:23 +0300",
-      "minecraft:windswept_forest": "2022-02-12 12:38:21 +0300",
-      "minecraft:warm_ocean": "2022-02-12 12:47:26 +0300",
-      "minecraft:plains": "2022-02-12 12:38:19 +0300"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/candle": {
-    "criteria": {
-      "has_string": "2022-02-12 12:40:39 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
-    "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
-    "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2022-02-12 12:47:26 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
-    "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2022-02-12 12:47:26 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2022-02-12 12:38:27 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2022-02-12 12:47:26 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2022-02-12 12:47:26 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/throw_trident": {
-    "criteria": {
-      "shot_trident": "2022-02-12 12:47:47 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_deepslate_wall": {
-    "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2022-02-12 12:40:39 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_item_frame": "2022-02-12 12:42:25 +0300"
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
     },
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "in_water": "2022-02-12 12:47:26 +0300"
+      "in_water": "2022-02-12 17:21:04 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+  "minecraft:recipes/redstone/lever": {
     "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
-      "minecraft:skeleton": "2022-02-12 12:38:27 +0300",
-      "minecraft:spider": "2022-02-12 12:41:05 +0300",
-      "minecraft:creeper": "2022-02-12 12:45:55 +0300",
-      "minecraft:zombie": "2022-02-12 12:41:09 +0300"
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2022-02-12 17:16:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-02-12 17:22:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2022-02-12 17:22:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2022-02-12 17:11:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2022-02-12 17:13:20 +0300",
+      "minecraft:swamp": "2022-02-12 17:13:15 +0300",
+      "minecraft:forest": "2022-02-12 17:13:26 +0300",
+      "minecraft:jungle": "2022-02-12 17:11:14 +0300"
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
+      "has_chiseled_quartz_block": "2022-02-12 17:15:07 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_stained_glass": {
+  "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
+      "has_stick": "2022-02-12 17:22:01 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tripwire_hook": {
+  "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
-      "has_string": "2022-02-12 12:40:39 +0300"
+      "has_stick": "2022-02-12 17:22:01 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
+  "minecraft:recipes/misc/melon_seeds": {
     "criteria": {
-      "has_bone": "2022-02-12 12:38:27 +0300"
+      "has_melon": "2022-02-12 17:11:22 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_bricks": {
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/misc/map": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
+      "has_compass": "2022-02-12 17:17:20 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
+  "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
+      "has_stick": "2022-02-12 17:22:01 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glass_pane": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
+      "in_water": "2022-02-12 17:21:04 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/combat/stone_sword": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+  "minecraft:recipes/building_blocks/quartz_stairs": {
     "criteria": {
-      "has_polished_deepslate": "2022-02-12 12:42:33 +0300"
+      "has_chiseled_quartz_block": "2022-02-12 17:15:07 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+  "minecraft:recipes/building_blocks/quartz_slab": {
     "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
+      "has_chiseled_quartz_block": "2022-02-12 17:15:07 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dripstone_block": {
+  "minecraft:story/upgrade_tools": {
     "criteria": {
-      "has_pointed_dripstone": "2022-02-12 12:46:15 +0300"
+      "stone_pickaxe": "2022-02-12 17:22:04 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/combat/crossbow": {
+  "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
-      "has_string": "2022-02-12 12:40:39 +0300"
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2022-02-12 17:22:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-02-12 17:21:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-02-12 17:22:04 +0300"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "in_water": "2022-02-12 12:47:26 +0300"
+      "in_water": "2022-02-12 17:21:04 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+  "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
+      "has_stick": "2022-02-12 17:22:01 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_stained_glass": {
+  "minecraft:recipes/combat/crossbow": {
     "criteria": {
-      "has_glass": "2022-02-12 12:47:38 +0300"
+      "has_stick": "2022-02-12 17:22:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2022-02-12 17:11:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2022-02-12 17:22:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "melon_stem": "2022-02-12 17:22:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-02-12 17:21:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-02-12 17:21:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-02-12 17:22:09 +0300"
     },
     "done": true
   },

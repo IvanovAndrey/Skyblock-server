@@ -89,11 +89,11 @@ playerLocations:
     IridiumSkyblock:
       ==: org.bukkit.Location
       world: IridiumSkyblock
-      x: -150.97896238036222
-      y: 89.0
-      z: 0.5085084108785195
-      pitch: 54.750366
-      yaw: 11.250983
+      x: -153.0721334804626
+      y: 95.0
+      z: -0.8659993137558991
+      pitch: 48.449966
+      yaw: 107.700485
     world:
       ==: org.bukkit.Location
       world: world

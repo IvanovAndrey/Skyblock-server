@@ -1,65 +1,154 @@
 {
-  "minecraft:recipes/misc/pink_dye_from_peony": {
+  "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
-      "has_peony": "2022-02-12 12:35:37 +0300"
+      "has_diamond": "2022-02-13 18:40:41 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_spider_eye": "2022-02-12 12:40:39 +0300"
+      "in_water": "2022-02-12 17:25:28 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
-      "has_slime_ball": "2022-02-12 12:41:27 +0300"
+      "has_diamond": "2022-02-13 18:40:41 +0300"
     },
     "done": true
   },
-  "minecraft:adventure/root": {
+  "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
-      "killed_by_something": "2022-02-12 12:35:53 +0300"
+      "has_diamond": "2022-02-13 18:40:41 +0300"
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
+  "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
-      "minecraft:spider": "2022-02-12 12:40:38 +0300"
+      "has_diamond": "2022-02-13 18:40:41 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
+  "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
-      "has_slime_ball": "2022-02-12 12:41:27 +0300"
+      "has_diamond": "2022-02-13 18:40:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2022-02-13 18:40:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2022-02-12 17:10:16 +0300"
     },
     "done": true
   },
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
-      "has_azure_bluet": "2022-02-12 12:40:53 +0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:spider": "2022-02-12 12:40:38 +0300"
-    },
-    "done": false
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2022-02-12 12:41:27 +0300"
+      "has_azure_bluet": "2022-02-12 17:24:09 +0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:windswept_hills": "2022-02-12 00:07:54 +0300",
-      "minecraft:windswept_forest": "2022-02-12 12:34:52 +0300",
-      "minecraft:plains": "2022-02-12 12:34:48 +0300"
+      "minecraft:forest": "2022-02-12 17:22:49 +0300",
+      "minecraft:jungle": "2022-02-12 17:10:08 +0300"
     },
     "done": false
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2022-02-13 18:40:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2022-02-12 17:10:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2022-02-13 18:40:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2022-02-12 17:10:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-02-12 17:25:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2022-02-13 18:40:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2022-02-13 18:40:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2022-02-13 18:40:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-02-12 17:25:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-02-12 17:25:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2022-02-13 18:40:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2022-02-12 17:10:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-02-12 17:25:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-02-12 17:25:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2022-02-13 18:40:41 +0300"
+    },
+    "done": true
   },
   "DataVersion": 2865
 }

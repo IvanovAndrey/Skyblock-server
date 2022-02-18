@@ -4002,3 +4002,86 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.command.CommandSender
 14:16:00 [INFO] Disconnecting 0 connections
 14:16:01 [INFO] Disabling plugins
 14:16:01 [INFO] Closing IO threads
+20:54:18 [INFO] Using mbed TLS based native cipher.
+20:54:18 [INFO] Using zlib based native compressor.
+20:54:18 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:eae9d45:1631
+20:54:18 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+20:54:18 [INFO] Epoll is working, utilising it!
+20:54:18 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+20:54:19 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+20:54:19 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+20:54:19 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+20:54:19 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+20:54:19 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+20:54:19 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Loaded plugin TestPlugin version 1.0 by IvanovAndrey
+20:54:19 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [WARNING] Forced host server pvp is not defined
+20:54:19 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] [TestPlugin] Bungee plugin is on
+20:54:19 [INFO] Enabled plugin TestPlugin version 1.0 by IvanovAndrey
+20:54:19 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:eae9d45:1631 by SpigotMC
+20:54:19 [INFO] Listening on /0.0.0.0:25565
+20:56:43 [INFO] [/109.235.219.214:49304] <-> InitialHandler has pinged
+20:56:43 [INFO] [/109.235.219.214:49306] <-> InitialHandler has connected
+20:56:44 [INFO] [KRISPIWINS] <-> ServerConnector [hub] has connected
+20:57:09 [INFO] [/95.29.44.207:64566] <-> InitialHandler has pinged
+20:59:32 [INFO] [KRISPIWINS] <-> ServerConnector [skyblock_lobby] has connected
+20:59:32 [INFO] [KRISPIWINS] <-> DownstreamBridge <-> [hub] has disconnected
+21:00:09 [INFO] [KRISPIWINS] <-> ServerConnector [skyblock] has connected
+21:00:10 [INFO] [KRISPIWINS] <-> DownstreamBridge <-> [skyblock_lobby] has disconnected
+21:00:24 [INFO] [KRISPIWINS] <-> ServerConnector [skyblock_lobby] has connected
+21:00:24 [INFO] [KRISPIWINS] <-> DownstreamBridge <-> [skyblock] has disconnected
+21:00:33 [INFO] [KRISPIWINS] <-> ServerConnector [skyblock] has connected
+21:00:33 [INFO] [KRISPIWINS] <-> DownstreamBridge <-> [skyblock_lobby] has disconnected
+21:00:54 [INFO] [KRISPIWINS] <-> ServerConnector [skyblock_lobby] has connected
+21:00:54 [INFO] [KRISPIWINS] <-> DownstreamBridge <-> [skyblock] has disconnected
+21:16:01 [INFO] [KRISPIWINS] disconnected with: §fServer closed
+21:16:01 [INFO] [KRISPIWINS] -> UpstreamBridge has disconnected
+21:16:01 [INFO] [KRISPIWINS] <-> DownstreamBridge <-> [skyblock_lobby] has disconnected
+21:18:07 [SEVERE] Exception in thread "main" 
+21:18:07 [SEVERE] java.io.IOException: Ошибка ввода/вывода
+
+21:18:07 [SEVERE] 	at java.base/java.io.FileInputStream.read0(Native Method)
+
+21:18:07 [SEVERE] 	at java.base/java.io.FileInputStream.read(FileInputStream.java:228)
+
+21:18:07 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+
+21:18:07 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+
+21:18:07 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+
+21:18:07 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+
+21:18:07 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+
+21:18:07 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+
+21:18:07 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+
+21:18:07 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2269)
+
+21:18:07 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:72)
+
+21:18:07 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+
+21:18:07 [INFO] Closing listener [id: 0x79169cd2, L:/[0:0:0:0:0:0:0:0%0]:25565]
+21:18:07 [INFO] Closing pending connections
+21:18:07 [INFO] Disconnecting 0 connections
+21:18:08 [INFO] Disabling plugins
+21:18:08 [INFO] Closing IO threads
